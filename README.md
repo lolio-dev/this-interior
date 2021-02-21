@@ -1,6 +1,8 @@
 # html/sass starterpack
 
-### Un starter pack pour créer et mettre en place des projets rapide en sass et html
+## demo: https://6032bfc250dc589bcf750fd9--stoic-mayer-bcefb9.netlify.app/
+
+### lien dev challenge: https://devchallenges.io/solutions/RnLTyCznZM83KoNqNiiF
 
 installer les dépendances: 
 ```
