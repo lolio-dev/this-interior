@@ -1,6 +1,6 @@
 # html/sass starterpack
 
-## demo: https://6032bfc250dc589bcf750fd9--stoic-mayer-bcefb9.netlify.app/
+## demo: https://main--interior-consultant12.netlify.app
 
 ### lien dev challenge: https://devchallenges.io/solutions/RnLTyCznZM83KoNqNiiF
 
