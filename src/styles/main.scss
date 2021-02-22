@@ -5,7 +5,7 @@ body{
   padding-right: 77px;
   padding-left: 77px;
   color: $primary-text-color;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 // nav section
@@ -75,7 +75,7 @@ body{
 
   .hero-section__text{
     .hero-section__title{
-      font-family: "Lora";
+      font-family: "Lora" ,sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 3.5em;
@@ -150,7 +150,7 @@ body{
       }
       .hero-section__presentation-copyright{
         margin-top: 30px;
-        font-family: "Lora";
+        font-family: "Lora", sans-serif;
         width: 300px;
         font-weight: bold;
         font-size: 24px;
@@ -166,7 +166,7 @@ body{
 
   .footer-section__copyright{
 
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -245,7 +245,9 @@ body{
       }
 
       .hero-section__presentation{
-        right: -330;
+        right: -300;
+        top: -50;
+        width: 500px;
       }
     }
   }
@@ -390,6 +392,60 @@ body{
         }
       }
     }
+  }
+}
+
+@media(max-width: 770px){
+  .hero-section{
+    margin-top: 50px;
+    .hero-section__text{
+      .hero-section__title{
+        font-size: 2.5em;
+      }
+      .hero-section__summary{
+        font-size: 1.3em;
+        width: 300px;
+        line-height: 29px;
+      }
+    }
+    .hero-section__image-section{
+      img{
+        height: 35px;
+        width: auto;
+      }
+      .hero-section__presentation{
+        height: 150px;
+        width: 90%;
+
+        .hero-section__presentation-person{
+          .hero-section__presentation-image{
+            height: 60px;
+            width: auto;
+          }
+
+          .hero-section__person-identity{
+            .hero-section__person-name{
+              margin-top: 10px;
+              font-size: 1em;
+            }
+
+            .hero-section__person-job{
+              margin-top: 5px;
+              font-size: 0.9em;
+            }
+          }
+        }
+
+        .hero-section__presentation-copyright{
+          font-size: 14px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  .footer-section{
+    margin-top: -25px;
   }
 }
 
